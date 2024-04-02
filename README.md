@@ -6,20 +6,20 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 ## **TABLE OF CONTENT**
 
-- [Soal 1](#soal1)
-- [Soal 2](#soal2)
-- [Soal 3](#soal3)
-- [Soal 4](#soal4)
-- [Soal 5](#soal5)
-- [Soal 6](#soal6)
-- [Soal 7](#soal7)
-- [Soal 8](#soal8)
-- [Soal 9](#soal9)
-- [Soal 10](#soal10)
+- [ATM or ATP or FTP ? 🤔](#soal1)
+- [evidence](#soal2)
+- [How Many packets?](#soal3)
+- [trace him](#soal4)
+- [creds](#soal5)
+- [malwleowleo](#soal6)
+- [whoami](#soal7)
+- [secret](#soal8)
+- [fuzz](#soal9)
+- [fuzz](#soal10)
 
 ---
 
-### **I. SOAL 1<a name="soal1"></a>**
+### **ATM or ATP or FTP ? 🤔<a name="soal1"></a>**
 
 **A. PEMBAHASAN**
 
@@ -31,7 +31,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 ---
 
-### **II. SOAL 2<a name="soal2"></a>**
+### **evidence<a name="soal2"></a>**
 
 **A. PEMBAHASAN**
 
@@ -43,7 +43,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 ---
 
-### **III. SOAL 3<a name="soal3"></a>**
+### **How Many packets?<a name="soal3"></a>**
 
 **A. PEMBAHASAN**
 
@@ -55,7 +55,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 ---
 
-### **IV. SOAL 4<a name="soal4"></a>**
+### **trace him<a name="soal4"></a>**
 
 **A. PEMBAHASAN**
 
@@ -67,7 +67,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 ---
 
-### **V. SOAL 5<a name="soal5"></a>**
+### **creds<a name="soal5"></a>**
 
 **A. PEMBAHASAN**
 
@@ -79,7 +79,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 ---
 
-### **VI. SOAL 6<a name="soal6"></a>**
+### **malwleowleo<a name="soal6"></a>**
 
 **A. PEMBAHASAN**
 
@@ -91,7 +91,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 ---
 
-### **VII. SOAL 7<a name="soal7"></a>**
+### **whoami<a name="soal7"></a>**
 
 **A. PEMBAHASAN**
 
@@ -103,7 +103,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 ---
 
-### **VIII. SOAL 8<a name="soal8"></a>**
+### **secret<a name="soal8"></a>**
 
 **A. PEMBAHASAN**
 
@@ -115,7 +115,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 ---
 
-### **IX. SOAL 9<a name="soal9"></a>**
+### **fuzz<a name="soal9"></a>**
 
 **A. PEMBAHASAN**
 
@@ -127,7 +127,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 ---
 
-### **X. SOAL 10<a name="soal10"></a>**
+### **malwaew<a name="soal10"></a>**
 
 **A. PEMBAHASAN**
 
