@@ -15,7 +15,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 - [whoami](#soal7)
 - [secret](#soal8)
 - [fuzz](#soal9)
-- [fuzz](#soal10)
+- [malwaew](#soal10)
 
 ---
 
