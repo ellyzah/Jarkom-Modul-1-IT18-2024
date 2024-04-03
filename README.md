@@ -116,14 +116,21 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 ---
 
 ### **fuzz<a name="soal9"></a>**
+>My website got hacked. Can you analyze this network traffic to help me track the attacker?
 
 **A. PEMBAHASAN**
 
+1. Filter protocol berdasarkan `http`. Lalu ketika dilihat pada info, terdapat response `HTTP/1.1 200 OK (text/htm)` respons ini menunjukkan bahwa server telah berhasil menemukan dan mengirimkan dokumen HTML yang diminta oleh klien, dan klien dapat menampilkan halaman web yang sesuai dengan konten HTML tersebut. Kemungkinan IP attacker merupakan IP destinasi yang mehasilkan info `HTTP/1.1 200 OK (text/htm)`
+
+2. Kemudian follow salah satu IP addres yang memiliki info `HTTP/1.1 200 OK (text/htm)` , setelah itu muncul tools, port, dan source IP attacker. Jika dilihat terdapat endpoint berupa `/`, lalu user-agent `ffuf-v2.0.0dev`, untuk port bisa dilihat pada bagian Transmission Control Protocol yaitu `80`
+  
+3. Setelah dilihat, banyak IP yang didominasi Username & Password incorrect ketika memiliki info  `HTTP/1.1 200 OK (text/htm)`. Kemudian untuk mencoba mencari Username & Password yang correct, berarti kita filter IP yang tidak mengandung info `HTTP/1.1 200 OK (text/htm)` pada IP destination milik attacker dan source milik klien. Jadi yang memungkinkan bisa menggunakan display filter `http and ip.src eq 172.20.0.2 and ip.dst eq 10.33.1.154 and not (http contains "OK")`
+
+
+4. Ternyata pada info terdapat kata kunci `Found`. Maka selanjutnya follow stream, kemudian find kata `Found` dalam stream tersebut. Hingga ditemukan Username & Password yang berhasil digunakan oleh attacker
+
+
 **B. HASIL**
-
-**C. REVISI**
-
-- Setelah direvisi
 
 ---
 
