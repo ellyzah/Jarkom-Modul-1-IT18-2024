@@ -122,15 +122,25 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 1. Filter protocol berdasarkan `http`. Lalu ketika dilihat pada info, terdapat response `HTTP/1.1 200 OK (text/htm)` respons ini menunjukkan bahwa server telah berhasil menemukan dan mengirimkan dokumen HTML yang diminta oleh klien, dan klien dapat menampilkan halaman web yang sesuai dengan konten HTML tersebut. Kemungkinan IP attacker merupakan IP destinasi yang mehasilkan info `HTTP/1.1 200 OK (text/htm)`
 
+![0](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/0629db42-0c7d-4808-b882-ffed403d320a)
+
 2. Kemudian follow salah satu IP addres yang memiliki info `HTTP/1.1 200 OK (text/htm)` , setelah itu muncul tools, port, dan source IP attacker. Jika dilihat terdapat endpoint berupa `/`, lalu user-agent `ffuf-v2.0.0dev`, untuk port bisa dilihat pada bagian Transmission Control Protocol yaitu `80`
-  
+
+![1a](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/b7fb574f-9670-408c-8af8-eb78d1dd9aa0)
+
+![1b](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/a6e276f2-ba59-4b14-82f9-fc0bdbc25dd2)
+
 3. Setelah dilihat, banyak IP yang didominasi Username & Password incorrect ketika memiliki info  `HTTP/1.1 200 OK (text/htm)`. Kemudian untuk mencoba mencari Username & Password yang correct, berarti kita filter IP yang tidak mengandung info `HTTP/1.1 200 OK (text/htm)` pada IP destination milik attacker dan source milik klien. Jadi yang memungkinkan bisa menggunakan display filter `http and ip.src eq 172.20.0.2 and ip.dst eq 10.33.1.154 and not (http contains "OK")`
 
+![2](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/5fa88a51-8c94-49ed-89d8-ffdca7ee35c2)
 
 4. Ternyata pada info terdapat kata kunci `Found`. Maka selanjutnya follow stream, kemudian find kata `Found` dalam stream tersebut. Hingga ditemukan Username & Password yang berhasil digunakan oleh attacker
 
+![3](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/32a923bc-edf2-4ef8-ba36-4dc9ec47e3b8)
 
 **B. HASIL**
+
+![4](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/9aab2a30-0bfe-4903-8b6f-61c160b9c2bb)
 
 ---
 
