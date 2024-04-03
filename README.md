@@ -134,17 +134,31 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 1. Download attachment file yang disediakan pada soal (infected.zip), kemudian ekstrak file .zipnya. Maka akan terdapat 2 file yaitu capture.pcap dan keylog.txt
 
+![a](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/61a0d504-2701-4d33-92a7-979d46760f19)
+
 2. Sebelum itu, kita coba cek filter http, untuk mengetahui apakah ada traffic network berdasarkan web service
+
+![a1](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/0b362563-99c7-4b02-b369-40eb24e593b4)
 
 3. Kemudian buka file capture.pcap lalu akan diarahkan ke wireshark. Mengingat terdapat hint untuk decrypt TLS terlebih dahulu, maka klik Edit > Preferences > Protocols > TLS. Lalu pada (Pre)-Master-Secret.log filename klik Browse... lalu pilih file keylog.txt
 
+![b](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/1236c18e-71cb-48c6-be33-6e6b98411294)
+
 4. Setelah decrypt TLS, coba cek filter dengan protocol http lagi, maka beberapa file yang sebelumnya tidak ada/ sembunyi akan muncul. Jika dianalisis ada beberapa respon dan request yang terjadi. Di situ terdapat request GET yang berbeda sendiri yaitu pada sebuah file .dll. File .dll merupakan file yang bisa dieksekusi, kemungkinan ini adalah malware yang dimaksud.
+
+![c](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/5b015123-f0a5-4c85-8a8e-daf6ea6bb670)
 
 5. Lalu coba follow stream dan muncul data-data biner yang tidak jelas. Namun di situ terselipkan data bertuliskan `This program cannot be run in DOS mode.` artinya bahwa Ini adalah pesan yang umumnya ditemukan dalam berkas PE (Portable Executable) Windows, dan bisa menandakan bahwa ini adalah file biner Windows. Beberapa jenis malware mengirimkan pesan semacam ini untuk membingungkan analis keamanan. 
 
+![d](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/cc4882bb-3215-45ba-9637-ced32a126310)
+
 6. Ketika sudah dipastikan itu merupakan file malware, selanjutnya kita matikan antivirus laptop terlebih dahulu, agar ketika file diexport maka masih terjaga.
+
+![d1](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/729b0078-8d09-4917-87dd-ae9cd123e566)
   
 8. Jika antivirus windows sudah mati, maka klik File > Export Object > FTP-DATA , lalu save file export agar dapat masuk ke local device kita
+
+![e](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/3025d414-2257-40f6-ae94-c8e6e55556b7)
 
 9. Kemudian cek SHA-256 hash dari file invest_20.dll pada terminal linux
 
@@ -153,8 +167,11 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 └─$ shasum -a 256 invest_20.dll
 31cf42b2a7c5c558f44cfc67684cc344c17d4946d3a1e0b2cecb8eb58173cb2f  invest_20.dll
 ```
+![e1](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/f4a979ba-f36c-4e09-8ce5-b92743359f22)
 
 10. Copy hash tersebut dan jawab pertanyaan pada `nc 10.15.40.20 10003` dan flag berhasil ditemukan
 
 **B. HASIL**
+
+![f](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/4dc7824d-b869-4d01-98cf-a99faf836fa8)
 
