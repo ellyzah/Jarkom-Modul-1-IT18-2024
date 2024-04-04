@@ -117,13 +117,15 @@ Akan tetapi, melihat pada soal `ATM or ATP or FTP ? 🤔`, terdapat *bruteforce*
 
 ### **trace him<a name="soal4"></a>**
 
+> Selain menghitung jumlah packet, coba lacak juga ip penyerang tersebut!
+
 **A. PEMBAHASAN**
+
+1. Tidak ada cara khusus, ini berupa hipotesis dan dugaan saja, karena ditemukan aktifitas dengan protocol SSH, yang artinya ada yang ingin memasuki server tertentu. Kemudian saya coba memasukkan IP sesuai destinationnya.
 
 **B. HASIL**
 
-**C. REVISI**
-
-- Setelah direvisi
+Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10006`
 
 ---
 
