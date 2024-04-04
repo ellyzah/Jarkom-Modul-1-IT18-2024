@@ -163,6 +163,7 @@ Dan jika kita simak kembali ada satu file yang kurang lebih bertuliskan `m4L1c10
 
 Jawaban soal pada `nc 10.15.40.20 10010` adalah MIO MIRZA
 
+![n](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/e0f61426-dbd3-47c6-a8b9-aad9bd4c7790)
 
 ---
 
