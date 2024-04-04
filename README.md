@@ -2,6 +2,8 @@
 
 Berikut adalah Laporan Resmi Praktikum Komunikasi Data & Jaringan Komputer Modul 1 oleh Kelompok IT18.
 
+Siti Nur Ellyzah |
+Iki Adfi Nur Mohamad | 5027221033
 ---
 
 ## **TABLE OF CONTENT**
