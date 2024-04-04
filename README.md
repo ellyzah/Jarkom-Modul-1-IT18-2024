@@ -56,18 +56,29 @@ Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10004`
 
 1. Awalnya saya melakukan filter `http` untuk melihat info response yang ada pada website
 
+![1](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/276e8b7d-afbc-4244-b077-d647170adff7)
+
 2. Karena dilihat terdapat respon `GET` , maka kemungkinan bruteforce terjadi pada respon terseut, sehingga langsung display filter menggunakan `http and http contains "GET"`. Kemudian ditemukan info yang mengindikasikan terdapat bruteforce yang dilakukan attacker yaitu `GET /randomfile1 HTTP/1.1`
+
+![2](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/d19deb61-4181-4a1f-8290-8c27e500457e)
    
 4. Kemudian langsung follow streamnya dan mendapatkan informasi domain dan web server.
 
+![3](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/d0e0a739-23d1-4f21-ad6e-8600ac47735b)
+
 5. Untuk menemukan path login, langsung saja saya spesifikkan filternya menggunakan `http and http contains "Login"`. Kemudian ditemukan path login yang benar.
+
+![4](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/d5a9a600-b001-4814-85f3-4ed68c245df5)
 
 6. Untuk mengetahui email dan password yang digunakan attacker untuk login, maka tinggal follow stream yang memiliki info `Found`. Artinya bahwa email dan password tersebut sukses login
 
+![5](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/a4f34ce7-8163-4ee2-bdd1-041b2cb573f9)
 
 **B. HASIL**
 
 Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10002`
+
+![6](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/816218ab-06ea-436f-a803-11f47fc3fa48)
 
 ---
 
