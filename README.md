@@ -24,9 +24,22 @@ REVISI:
 
 ### **ATM or ATP or FTP ? 🤔<a name="soal1"></a>**
 
+> Pradityo mencoba mengembangkan server ftp, tetapi seseorang mencoba melakukan bruteforce login, bisakah Anda menganalisis apa yang terjadi?
+
 **A. PEMBAHASAN**
 
+1. Filter protocol berdasarkan `ftp` , kemudian akan muncul hasil filternya. Jika dilihat, di situ terdapat info `Login Incorrect`. Dugaan saya, kemungkinan ada info `Login successful` yang menandai attacker berhasil login.
+
+2. Kemudian saya mencoba melakukan filter dengan menampilkan semua info yang mengandung `Login` dengan filter display `ftp and ftp contains "Login"`. Setelah itu discroll saja maka akan menemukan info `Login successful` yang berarti ini akun yang berhasil dilakukan login oleh attacker.
+
+3. Setelah itu follow stream nya dan lihat ada password yang benar untuk login, yaitu `m4y_th3_Kn!fe_ch1p_&_sh4tter`
+
+
 **B. HASIL**
+
+Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10004`
+
+
 
 **C. REVISI**
 
