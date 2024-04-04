@@ -50,17 +50,20 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi Data & Jaringan Komputer Modul
 
 1. Dapat kita lihat pada beberapa Protocol `FTP`, ada beberapa informasi yang tertera seperti `Response: 530 Login incorrect.`
 
-![HMW1](image.png)
+![HMW1](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/124652107/e4fd9249-e817-4568-83e5-8927738049ed)
 
 2. Dengan mengikuti informasi tersebut, kita dapat melakukan filtering berdasarkan informasi tersebut dengan pilihan seperti pada gambar dibawah ini, pilih `Apply as Filter` dan kemudian pilih `Selected`
 
-![HMW2]("C:\ngoding banget\j4rk0m\Jarkom-Modul-1-IT18-2024\image-1.png")
+![HMW2](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/124652107/e226ba7f-ed2f-4591-aad4-e4495d294edc)
+
 
 3. Setelah itu maka akan tampak seperti yang tertera pada gambar dan bisa kita lihat dibagian pojok kanan bawah tertera keterangan `Displayed` yang bertuliskan `933`
 
-![HMW3a]("C:\ngoding banget\j4rk0m\Jarkom-Modul-1-IT18-2024\image-2.png")
+![HMW3a](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/124652107/85e2564a-96d3-40ab-8d51-16ca183b0edc)
 
-![HMW3b]("C:\ngoding banget\j4rk0m\Jarkom-Modul-1-IT18-2024\image-3.png")
+
+![HMW3b](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/124652107/6c477703-3902-4f00-98ae-e5db88c0d3e9)
+
 
 Akan tetapi, melihat pada soal `ATM or ATP or FTP ? 🤔`, terdapat *bruteforce* yang dilakukan oleh attacker, akan ada satu attempt yang berhasil dilakukan (*Login Successfull*). Maka dari itu jumlah attempt login harus ditambahkan satu menjadi `934`
 
@@ -68,7 +71,8 @@ Akan tetapi, melihat pada soal `ATM or ATP or FTP ? 🤔`, terdapat *bruteforce*
 
 **B. HASIL**
 
-![HMW4]("C:\ngoding banget\j4rk0m\Jarkom-Modul-1-IT18-2024\image-4.png")
+![HMW4](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/124652107/45e989e3-cecd-44bd-981b-44c1a0b3941c)
+
 
 ---
 
@@ -103,21 +107,25 @@ Akan tetapi, melihat pada soal `ATM or ATP or FTP ? 🤔`, terdapat *bruteforce*
 
 1. Pada soal tertera kata kunci `ftp`, maka dari itu kita bisa mulai dari filter protocol `FTP`, akan muncul tampilan seperti ini
 
-![mleo1]("C:\ngoding banget\j4rk0m\Jarkom-Modul-1-IT18-2024\image-5.png")
+![mleo1](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/124652107/f1aebd4f-aaae-4515-b7f0-c62cc7713be9)
+
 
 2. Bisa kita lihat terdapat satu *Login Successful* yang selanjutnya akan kita follow stream seperti ini
 
-![mleo2a]("C:\ngoding banget\j4rk0m\Jarkom-Modul-1-IT18-2024\image-6.png")
+![mleo2a](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/124652107/c3bc9003-30c8-4a0d-b694-d1ab83ca067a)
+
 
 Dan jika kita simak kembali ada satu file yang kurang lebih bertuliskan `m4L1c10us_W4re.c`
 
-![mleo2b]("C:\ngoding banget\j4rk0m\Jarkom-Modul-1-IT18-2024\image-7.png")
+![mleo2b](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/124652107/0162d264-9acc-43f1-ad04-07dce08da320)
+
 
 3. Untuk pengecekan file tersebut kita submit di `nc 10.15.40.20 10008` dan flag pun berhasil didapatkan
 
 **B. HASIL**
 
-![mleo3]("C:\ngoding banget\j4rk0m\Jarkom-Modul-1-IT18-2024\image-8.png")
+![mleo3](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/124652107/87fc7a34-1ca3-4013-b64a-4ecd9b9d7fe1)
+
 
 ---
 
