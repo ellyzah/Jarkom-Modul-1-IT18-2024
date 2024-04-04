@@ -141,14 +141,17 @@ Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10006`
 
 1. Untuk menemukan kredensial, biasanya kita bisa melihat pada fase login, sehingga langsung saja filter menggunakan    `ftp contains "Login"`
 
-
+![1](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/a63d4512-3727-49f3-87d6-b0f2ef8b76e3)
 
 2. Setelah itu maka akan muncul Username dan Password
+
+![2](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/25a9b5f1-19f3-4b2e-a978-d4f7c7244ccc)
 
 **B. HASIL**
 
 Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10007`
 
+![3](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/51398ac6-0d5f-42ab-a8c8-4a8772a8cb87)
 
 ---
 
