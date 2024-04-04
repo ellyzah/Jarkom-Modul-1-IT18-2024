@@ -149,9 +149,15 @@ Dan jika kita simak kembali ada satu file yang kurang lebih bertuliskan `m4L1c10
 
 1. Sama seperti soal **whoami<a name="soal7"></a>** kita filter menggunakan protocol `ftp` kemudian klik File > Export Objects > FTP-DATA
 
+![0](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/03c0d3e5-320c-4303-b455-6e388198131b)
+
 2. Kemudian save untuk nama file `mirza.jpg`
 
+![1](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/84ffb3af-b4ef-4b52-8c5f-cf0d91a0d05e)
+
 3. Setelah di save, maka gambar akan terdownload seperti di bawah ini.
+
+![mirza](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/dd5f2b54-e875-43b9-bb47-567fcebb9ae1)
 
 **B. HASIL**
 
