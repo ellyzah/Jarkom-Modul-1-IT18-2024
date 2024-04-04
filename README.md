@@ -135,13 +135,20 @@ Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10006`
 
 ### **creds<a name="soal5"></a>**
 
+>Attacker menyadari jika dia bisa membuat clone ftp server dari target, temukan kredensialn dari server ftp yang dibuat oleh attacker
+
 **A. PEMBAHASAN**
+
+1. Untuk menemukan kredensial, biasanya kita bisa melihat pada fase login, sehingga langsung saja filter menggunakan    `ftp contains "Login"`
+
+
+
+2. Setelah itu maka akan muncul Username dan Password
 
 **B. HASIL**
 
-**C. REVISI**
+Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10007`
 
-- Setelah direvisi
 
 ---
 
