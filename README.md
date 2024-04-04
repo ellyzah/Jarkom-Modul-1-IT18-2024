@@ -30,16 +30,21 @@ REVISI:
 
 1. Filter protocol berdasarkan `ftp` , kemudian akan muncul hasil filternya. Jika dilihat, di situ terdapat info `Login Incorrect`. Dugaan saya, kemungkinan ada info `Login successful` yang menandai attacker berhasil login.
 
+![0](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/b11b8a4e-3691-44e3-afa1-0a675afe2367)
+
 2. Kemudian saya mencoba melakukan filter dengan menampilkan semua info yang mengandung `Login` dengan filter display `ftp and ftp contains "Login"`. Setelah itu discroll saja maka akan menemukan info `Login successful` yang berarti ini akun yang berhasil dilakukan login oleh attacker.
+
+![1](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/a76d7e59-3dea-4af0-a76a-10bc9b4ffdee)
 
 3. Setelah itu follow stream nya dan lihat ada password yang benar untuk login, yaitu `m4y_th3_Kn!fe_ch1p_&_sh4tter`
 
+![2](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/cc28c2d6-9cba-454b-b0b3-9dbf492bae3d)
 
 **B. HASIL**
 
 Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10004`
 
-
+![3](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/e070f5c6-0e3b-4513-b11a-6636fe7573e5)
 
 **C. REVISI**
 
