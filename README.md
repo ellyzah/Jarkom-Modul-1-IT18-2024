@@ -50,7 +50,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi Data & Jaringan Komputer Modul
 
 1. Dapat kita lihat pada beberapa Protocol `FTP`, ada beberapa informasi yang tertera seperti `Response: 530 Login incorrect.`
 
-![HMW1]("C:\ngoding banget\j4rk0m\Jarkom-Modul-1-IT18-2024\image.png")
+![HMW1](image.png)
 
 2. Dengan mengikuti informasi tersebut, kita dapat melakukan filtering berdasarkan informasi tersebut dengan pilihan seperti pada gambar dibawah ini, pilih `Apply as Filter` dan kemudian pilih `Selected`
 
