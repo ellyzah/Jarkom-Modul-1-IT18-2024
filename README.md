@@ -143,13 +143,20 @@ Dan jika kita simak kembali ada satu file yang kurang lebih bertuliskan `m4L1c10
 
 ### **secret<a name="soal8"></a>**
 
+>Temukan pesan rahasia dari attacker
+
 **A. PEMBAHASAN**
+
+1. Sama seperti soal **whoami<a name="soal7"></a>** kita filter menggunakan protocol `ftp` kemudian klik File > Export Objects > FTP-DATA
+
+2. Kemudian save untuk nama file `mirza.jpg`
+
+3. Setelah di save, maka gambar akan terdownload seperti di bawah ini.
 
 **B. HASIL**
 
-**C. REVISI**
+Jawaban soal pada `nc 10.15.40.20 10010` adalah MIO MIRZA
 
-- Setelah direvisi
 
 ---
 
@@ -177,6 +184,7 @@ Dan jika kita simak kembali ada satu file yang kurang lebih bertuliskan `m4L1c10
 ![3](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/32a923bc-edf2-4ef8-ba36-4dc9ec47e3b8)
 
 **B. HASIL**
+
 
 ![4](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/9aab2a30-0bfe-4903-8b6f-61c160b9c2bb)
 
