@@ -46,21 +46,28 @@ Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10004`
 
 ![3](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/e070f5c6-0e3b-4513-b11a-6636fe7573e5)
 
-**C. REVISI**
-
-- Setelah direvisi
-
 ---
 
 ### **evidence<a name="soal2"></a>**
 
+> Perusahaan nanomate baru saja kebobolan. Mereka menyewamu untuk mencari tahu bagaimana caranya pelaku bisa masuk.
+
 **A. PEMBAHASAN**
+
+1. Awalnya saya melakukan filter `http` untuk melihat info response yang ada pada website
+
+2. Karena dilihat terdapat respon `GET` , maka kemungkinan bruteforce terjadi pada respon terseut, sehingga langsung display filter menggunakan `http and http contains "GET"`. Kemudian ditemukan info yang mengindikasikan terdapat bruteforce yang dilakukan attacker yaitu `GET /randomfile1 HTTP/1.1`
+   
+4. Kemudian langsung follow streamnya dan mendapatkan informasi domain dan web server.
+
+5. Untuk menemukan path login, langsung saja saya spesifikkan filternya menggunakan `http and http contains "Login"`. Kemudian ditemukan path login yang benar.
+
+6. Untuk mengetahui email dan password yang digunakan attacker untuk login, maka tinggal follow stream yang memiliki info `Found`. Artinya bahwa email dan password tersebut sukses login
+
 
 **B. HASIL**
 
-**C. REVISI**
-
-- Setelah direvisi
+Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10002`
 
 ---
 
