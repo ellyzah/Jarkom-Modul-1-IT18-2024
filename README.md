@@ -121,11 +121,15 @@ Akan tetapi, melihat pada soal `ATM or ATP or FTP ? 🤔`, terdapat *bruteforce*
 
 **A. PEMBAHASAN**
 
-1. Tidak ada cara khusus, ini berupa hipotesis dan dugaan saja, karena ditemukan aktifitas dengan protocol SSH, yang artinya ada yang ingin memasuki server tertentu. Kemudian saya coba memasukkan IP sesuai destinationnya.
+1. Tidak ada cara khusus, ini berupa hipotesis dan dugaan saja, karena ditemukan aktifitas dengan protocol SSH, yang artinya ada yang ingin memasuki server tertentu. Kemudian saya coba memasukkan IP sesuai destinationnya yaitu `10.20.3.4`
+
+![1](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/05a60579-bd89-4bef-a91a-e155059d61ae)
 
 **B. HASIL**
 
 Berikut jawaban dari pertanyaan pada `nc 10.15.40.20 10006`
+
+![2](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/d7a9e52e-a9ef-4e95-8200-c2d376c452fb)
 
 ---
 
