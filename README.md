@@ -1,6 +1,6 @@
 # **LAPORAN RESMI PRAKTIKUM KOMUNIKASI DATA & JARINGAN KOMPUTER MODUL 1**
 
-Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modul 1 oleh Kelompok IT18.
+Berikut adalah Laporan Resmi Praktikum Komunikasi Data & Jaringan Komputer Modul 1 oleh Kelompok IT18.
 
 ---
 
@@ -44,14 +44,31 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 ---
 
 ### **How Many packets?<a name="soal3"></a>**
+> Sebagai kewajiban untuk laporan, aku diminta untuk mencari tahu berapa kali attempt login yang dilakukan oleh hacker. Dapatkah kamu membantuku untuk menganalisanya?
 
 **A. PEMBAHASAN**
 
+1. Dapat kita lihat pada beberapa Protocol `FTP`, ada beberapa informasi yang tertera seperti `Response: 530 Login incorrect.`
+
+![HMW1](image.png)
+
+2. Dengan mengikuti informasi tersebut, kita dapat melakukan filtering berdasarkan informasi tersebut dengan pilihan seperti pada gambar dibawah ini, pilih `Apply as Filter` dan kemudian pilih `Selected`
+
+![HMW2](image-1.png)
+
+3. Setelah itu maka akan tampak seperti yang tertera pada gambar dan bisa kita lihat dibagian pojok kanan bawah tertera keterangan `Displayed` yang bertuliskan `933`
+
+![HMW3a](image-2.png)
+
+![HMW3b](image-3.png)
+
+Akan tetapi, melihat pada soal `ATM or ATP or FTP ? 🤔`, terdapat *bruteforce* yang dilakukan oleh attacker, akan ada satu attempt yang berhasil dilakukan (*Login Successfull*). Maka dari itu jumlah attempt login harus ditambahkan satu menjadi `934`
+
+4. Setelahnya kita bisa cek hasil yang ditemukan ke `nc 10.15.40.20 10005` dan flag berhasil ditemukan
+
 **B. HASIL**
 
-**C. REVISI**
-
-- Setelah direvisi
+![HMW4](image-4.png)
 
 ---
 
@@ -80,14 +97,27 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 ---
 
 ### **malwleowleo<a name="soal6"></a>**
+> Dapatkah kamu menemukan file malware yang dikirim oleh attacker melalui ftp?
 
 **A. PEMBAHASAN**
 
+1. Pada soal tertera kata kunci `ftp`, maka dari itu kita bisa mulai dari filter protocol `FTP`, akan muncul tampilan seperti ini
+
+![mleo1](image-5.png)
+
+2. Bisa kita lihat terdapat satu *Login Successful* yang selanjutnya akan kita follow stream seperti ini
+
+![mleo2a](image-6.png)
+
+Dan jika kita simak kembali ada satu file yang kurang lebih bertuliskan `m4L1c10us_W4re.c`
+
+![mleo2b](image-7.png)
+
+3. Untuk pengecekan file tersebut kita submit di `nc 10.15.40.20 10008` dan flag pun berhasil didapatkan
+
 **B. HASIL**
 
-**C. REVISI**
-
-- Setelah direvisi
+![mleo3](image-8.png)
 
 ---
 
@@ -120,7 +150,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 
 **A. PEMBAHASAN**
 
-1. Filter protocol berdasarkan `http`. Lalu ketika dilihat pada info, terdapat response `HTTP/1.1 200 OK (text/htm)` respons ini menunjukkan bahwa server telah berhasil menemukan dan mengirimkan dokumen HTML yang diminta oleh klien, dan klien dapat menampilkan halaman web yang sesuai dengan konten HTML tersebut. Kemungkinan IP attacker merupakan IP destinasi yang mehasilkan info `HTTP/1.1 200 OK (text/htm)`
+1. Filter protocol berdasarkan `http`. Lalu ketika dilihat pada info, terdapat response `HTTP/1.1 200 OK (text/htm)` respons ini menunjukkan bahwa server telah berhasil menemukan dan mengirimkan dokumen HTML yang diminta oleh klien, dan klien dapat menampilkan halaman web yang sesuai dengan konten HTML tersebut. Kemungkinan IP attacker merupakan IP destinasi yang menghasilkan info `HTTP/1.1 200 OK (text/htm)`
 
 ![0](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/0629db42-0c7d-4808-b882-ffed403d320a)
 
@@ -145,7 +175,7 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi FData & Jaringan Komputer Modu
 ---
 
 ### **malwaew<a name="soal10"></a>**
-> Ini adalah network traffic dari salah satu komputer di DPSSI yang terkena malware. Pak Sunhi, memintamu untuk membantu menganalisisnya. Bantulah Pak Sunhi untuk menemukan malware tersebut. Hint: decrypt tls first
+> Ini adalah network traffic dari salah satu komputer di DPSSI yang terkena malware. Pak Sunhi, memintamu untuk membantu menganalisisnya. Bantulah Pak Sunhi untuk menemukan malware tersebut. *Hint: decrypt tls first*
 
 **A. PEMBAHASAN**
 
