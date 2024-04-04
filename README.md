@@ -50,17 +50,17 @@ Berikut adalah Laporan Resmi Praktikum Komunikasi Data & Jaringan Komputer Modul
 
 1. Dapat kita lihat pada beberapa Protocol `FTP`, ada beberapa informasi yang tertera seperti `Response: 530 Login incorrect.`
 
-![HMW1](image.png)
+![HMW1]("C:\Users\ASUS\Pictures\Screenshots\Screenshot (2401).png")
 
 2. Dengan mengikuti informasi tersebut, kita dapat melakukan filtering berdasarkan informasi tersebut dengan pilihan seperti pada gambar dibawah ini, pilih `Apply as Filter` dan kemudian pilih `Selected`
 
-![HMW2](image-1.png)
+![HMW2]("C:\Users\ASUS\Pictures\Screenshots\Screenshot (2402).png")
 
 3. Setelah itu maka akan tampak seperti yang tertera pada gambar dan bisa kita lihat dibagian pojok kanan bawah tertera keterangan `Displayed` yang bertuliskan `933`
 
-![HMW3a](image-2.png)
+![HMW3a]("C:\Users\ASUS\Pictures\Screenshots\Screenshot (2403).png")
 
-![HMW3b](image-3.png)
+![HMW3b]("C:\Users\ASUS\Pictures\Screenshots\Screenshot 2024-04-04 070512.png")
 
 Akan tetapi, melihat pada soal `ATM or ATP or FTP ? 🤔`, terdapat *bruteforce* yang dilakukan oleh attacker, akan ada satu attempt yang berhasil dilakukan (*Login Successfull*). Maka dari itu jumlah attempt login harus ditambahkan satu menjadi `934`
 
@@ -68,7 +68,7 @@ Akan tetapi, melihat pada soal `ATM or ATP or FTP ? 🤔`, terdapat *bruteforce*
 
 **B. HASIL**
 
-![HMW4](image-4.png)
+![HMW4]("C:\Users\ASUS\Pictures\Screenshots\Screenshot 2024-04-04 072144.png")
 
 ---
 
@@ -103,21 +103,21 @@ Akan tetapi, melihat pada soal `ATM or ATP or FTP ? 🤔`, terdapat *bruteforce*
 
 1. Pada soal tertera kata kunci `ftp`, maka dari itu kita bisa mulai dari filter protocol `FTP`, akan muncul tampilan seperti ini
 
-![mleo1](image-5.png)
+![mleo1]("C:\Users\ASUS\Pictures\Screenshots\Screenshot (2406).png")
 
 2. Bisa kita lihat terdapat satu *Login Successful* yang selanjutnya akan kita follow stream seperti ini
 
-![mleo2a](image-6.png)
+![mleo2a]("C:\Users\ASUS\Pictures\Screenshots\Screenshot (2407).png")
 
 Dan jika kita simak kembali ada satu file yang kurang lebih bertuliskan `m4L1c10us_W4re.c`
 
-![mleo2b](image-7.png)
+![mleo2b]("C:\Users\ASUS\Pictures\Screenshots\Screenshot 2024-04-04 073104.png")
 
 3. Untuk pengecekan file tersebut kita submit di `nc 10.15.40.20 10008` dan flag pun berhasil didapatkan
 
 **B. HASIL**
 
-![mleo3](image-8.png)
+![mleo3]("C:\Users\ASUS\Pictures\Screenshots\Screenshot 2024-04-04 073448.png")
 
 ---
 
