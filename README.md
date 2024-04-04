@@ -186,13 +186,26 @@ Dan jika kita simak kembali ada satu file yang kurang lebih bertuliskan `m4L1c10
 
 ### **whoami<a name="soal7"></a>**
 
+> Dapatkah kamu menemukan siapa identitas attacker?
+
 **A. PEMBAHASAN**
 
+1. Awalnya filter dengan `ftp` , lalu ternyata menemukan beberapa extension yang berupa file seperti .c dan .jpg
+
+2. Kemudian ditemukan file dengan nama `STOR m4L1c10us_W4re.c`
+
+3. Lalu klik File > Export Objects > FTP-DATA
+
+4. Kemudian buka file `STOR m4L1c10us_W4re.c`
+
+5. Lalu copy dan decrypt `SGVsbG8gbXkgbmFtZSBpcyBQYXVsIEF0cmVpZGVzCg==` pada decrypt bash64 generator yang ada di internet. Ditemukan bahwa identitas attacker adalah `Hello my name is Paul Atreides`
+
+   
 **B. HASIL**
 
-**C. REVISI**
+Jawaban soal pada `nc 10.15.40.20 10009` adalah Paul_Atreides
 
-- Setelah direvisi
+
 
 ---
 
