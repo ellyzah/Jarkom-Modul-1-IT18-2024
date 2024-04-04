@@ -190,21 +190,27 @@ Dan jika kita simak kembali ada satu file yang kurang lebih bertuliskan `m4L1c10
 
 **A. PEMBAHASAN**
 
-1. Awalnya filter dengan `ftp` , lalu ternyata menemukan beberapa extension yang berupa file seperti .c dan .jpg
+1. Awalnya filter dengan `ftp` , lalu ternyata menemukan beberapa extension yang berupa file seperti .c dan .jpg. Kemudian ditemukan file dengan nama `STOR m4L1c10us_W4re.c`
 
-2. Kemudian ditemukan file dengan nama `STOR m4L1c10us_W4re.c`
+![1](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/4f55c9e7-81ad-4469-b91e-6ef4cde2a9d1)
 
-3. Lalu klik File > Export Objects > FTP-DATA
+2. Lalu klik File > Export Objects > FTP-DATA
 
-4. Kemudian buka file `STOR m4L1c10us_W4re.c`
+![2](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/e9a8d18d-793c-4eca-9d46-c225994275e9)
 
-5. Lalu copy dan decrypt `SGVsbG8gbXkgbmFtZSBpcyBQYXVsIEF0cmVpZGVzCg==` pada decrypt bash64 generator yang ada di internet. Ditemukan bahwa identitas attacker adalah `Hello my name is Paul Atreides`
+3. Kemudian buka file `STOR m4L1c10us_W4re.c` pada VSCode atau text editor lainnya.
 
-   
+![3](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/a3ff97b8-49da-4acc-ac75-9c3b2789c515)
+
+4. Lalu copy dan decrypt `SGVsbG8gbXkgbmFtZSBpcyBQYXVsIEF0cmVpZGVzCg==` pada decrypt bash64 generator yang ada di internet. Ditemukan bahwa identitas attacker adalah `Hello my name is Paul Atreides`
+
+![4](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/81798dfc-f256-4275-8e6e-72e57d3102b4)
+
 **B. HASIL**
 
 Jawaban soal pada `nc 10.15.40.20 10009` adalah Paul_Atreides
 
+![5](https://github.com/ellyzah/Jarkom-Modul-1-IT18-2024/assets/120791817/4fb59145-c4d8-4251-bb19-5349dc79f5ef)
 
 
 ---
